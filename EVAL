@@ -1,0 +1,3604 @@
+Script started on Sun 17 Apr 2016 12:26:58 AM EDT
+Copying nine.cc ... done
+Files copied to sandbox
+Copying harness directory
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/a.out' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/authority.o' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/DATE' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/old_authority.cc' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/old_authority.o' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/OUT' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/OUT-AUTH' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/PASSED' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/TRIED' for reading: Permission denied
+cp: cannot open `/home/acampbel/111/asgns/asgn-nine/test/typescript' for reading: Permission denied
+Test harness copied to sandbox
+&&&&&&&&&&&&&&&&& Running authority tests &&&&&&&&&&&&&&&&&
+
+----------------------------------------------------------------
+-  Test: _mytest01
+----------------------------------------------------------------
+
+Running submitted code
+Test 1 : Edges
+height(empty) = 0
+height(singleton) = 1
+count_nodes(empty) = 0
+count_nodes(singleton) = 1
+count_leaves(empty) = 0
+count_leaves(singleton) = 1
+count_branches(empty) = 0
+count_branches(singleton) = 0
+is_balanced(empty) = true
+is_balanced(singleton) = true
+is_equal(empty,empty) = true
+is_equal(empty,singleton) = false
+is_equal(singleton,empty) = false
+is_equal(singleton, singleton) = true
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 1 : Edges
+height(empty) = 0
+height(singleton) = 1
+count_nodes(empty) = 0
+count_nodes(singleton) = 1
+count_leaves(empty) = 0
+count_leaves(singleton) = 1
+count_branches(empty) = 0
+count_branches(singleton) = 0
+is_balanced(empty) = true
+is_balanced(singleton) = true
+is_equal(empty,empty) = true
+is_equal(empty,singleton) = false
+is_equal(singleton,empty) = false
+is_equal(singleton, singleton) = true
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 1 : Edges
+height(empty) = 0
+height(singleton) = 1
+count_nodes(empty) = 0
+count_nodes(singleton) = 1
+count_leaves(empty) = 0
+count_leaves(singleton) = 1
+count_branches(empty) = 0
+count_branches(singleton) = 0
+is_balanced(empty) = true
+is_balanced(singleton) = true
+is_equal(empty,empty) = true
+is_equal(empty,singleton) = false
+is_equal(singleton,empty) = false
+is_equal(singleton, singleton) = true
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 1 : Edges
+height(empty) = 0
+height(singleton) = 1
+count_nodes(empty) = 0
+count_nodes(singleton) = 1
+count_leaves(empty) = 0
+count_leaves(singleton) = 1
+count_branches(empty) = 0
+count_branches(singleton) = 0
+is_balanced(empty) = true
+is_balanced(singleton) = true
+is_equal(empty,empty) = true
+is_equal(empty,singleton) = false
+is_equal(singleton,empty) = false
+is_equal(singleton, singleton) = true
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 1 : Edges					Test 1 : Edges					
+height(empty) = 0					height(empty) = 0					
+height(singleton) = 1					height(singleton) = 1					
+count_nodes(empty) = 0					count_nodes(empty) = 0					
+count_nodes(singleton) = 1					count_nodes(singleton) = 1					
+count_leaves(empty) = 0					count_leaves(empty) = 0					
+count_leaves(singleton) = 1					count_leaves(singleton) = 1					
+count_branches(empty) = 0					count_branches(empty) = 0					
+count_branches(singleton) = 0					count_branches(singleton) = 0					
+is_balanced(empty) = true					is_balanced(empty) = true					
+is_balanced(singleton) = true					is_balanced(singleton) = true					
+is_equal(empty,empty) = true					is_equal(empty,empty) = true					
+is_equal(empty,singleton) = false					is_equal(empty,singleton) = false					
+is_equal(singleton,empty) = false					is_equal(singleton,empty) = false					
+is_equal(singleton, singleton) = true					is_equal(singleton, singleton) = true					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest01 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest02
+----------------------------------------------------------------
+
+Running submitted code
+Test 2 : Basic test
+         69
+      23
+   34
+            19
+                  95
+               84
+         7
+      72
+         60
+            70
+               34
+59
+   86
+      55
+         47
+nodes = 15
+branches = 14
+leaves = 4
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 2 : Basic test
+         69
+      23
+   34
+            19
+                  95
+               84
+         7
+      72
+         60
+            70
+               34
+59
+   86
+      55
+         47
+nodes = 15
+branches = 14
+leaves = 4
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 2 : Basic test
+         69
+      23
+   34
+            19
+                  95
+               84
+         7
+      72
+         60
+            70
+               34
+59
+   86
+      55
+         47
+nodes = 15
+branches = 14
+leaves = 4
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 2 : Basic test
+         69
+      23
+   34
+            19
+                  95
+               84
+         7
+      72
+         60
+            70
+               34
+59
+   86
+      55
+         47
+nodes = 15
+branches = 14
+leaves = 4
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 2 : Basic test					Test 2 : Basic test					
+         69					         69					
+      23					      23					
+   34					   34					
+            19					            19					
+                  95					                  95					
+               84					               84					
+         7					         7					
+      72					      72					
+         60					         60					
+            70					            70					
+               34					               34					
+59					59					
+   86					   86					
+      55					      55					
+         47					         47					
+nodes = 15					nodes = 15					
+branches = 14					branches = 14					
+leaves = 4					leaves = 4					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest02 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest03
+----------------------------------------------------------------
+
+Running submitted code
+Test 3 : branching_factor
+   86
+59
+b.f. 1
+   34
+      72
+55
+   47
+b.f. 1.5
+      59
+   34
+            69
+         95
+            23
+      7
+         19
+            84
+60
+   70
+b.f. 1.8
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 3 : branching_factor
+   86
+59
+b.f. 1
+   34
+      72
+55
+   47
+b.f. 1.5
+      59
+   34
+            69
+         95
+            23
+      7
+         19
+            84
+60
+   70
+b.f. 1.8
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 3 : branching_factor
+   86
+59
+b.f. 1
+   34
+      72
+55
+   47
+b.f. 1.5
+      59
+   34
+            69
+         95
+            23
+      7
+         19
+            84
+60
+   70
+b.f. 1.8
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 3 : branching_factor
+   86
+59
+b.f. 1
+   34
+      72
+55
+   47
+b.f. 1.5
+      59
+   34
+            69
+         95
+            23
+      7
+         19
+            84
+60
+   70
+b.f. 1.8
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 3 : branching_factor					Test 3 : branching_factor					
+   86					   86					
+59					59					
+b.f. 1					b.f. 1					
+   34					   34					
+      72					      72					
+55					55					
+   47					   47					
+b.f. 1.5					b.f. 1.5					
+      59					      59					
+   34					   34					
+            69					            69					
+         95					         95					
+            23					            23					
+      7					      7					
+         19					         19					
+            84					            84					
+60					60					
+   70					   70					
+b.f. 1.8					b.f. 1.8					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest03 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest04
+----------------------------------------------------------------
+
+Running submitted code
+Test 4 : Traversals
+   34
+59
+   86
+      55
+         47
+LEFTTORIGHT INORDER
+47
+55
+86
+59
+34
+LEFTTORIGHT PREORDER
+59
+86
+55
+47
+34
+LEFTTORIGHT POSTORDER
+47
+55
+86
+34
+59
+RIGHTTOLEFT INORDER
+34
+59
+86
+55
+47
+RIGHTTOLEFT PREORDER
+59
+34
+86
+55
+47
+RIGHTTOLEFT POSTORDER
+34
+47
+55
+86
+59
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 4 : Traversals
+   34
+59
+   86
+      55
+         47
+LEFTTORIGHT INORDER
+47
+55
+86
+59
+34
+LEFTTORIGHT PREORDER
+59
+86
+55
+47
+34
+LEFTTORIGHT POSTORDER
+47
+55
+86
+34
+59
+RIGHTTOLEFT INORDER
+34
+59
+86
+55
+47
+RIGHTTOLEFT PREORDER
+59
+34
+86
+55
+47
+RIGHTTOLEFT POSTORDER
+34
+47
+55
+86
+59
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 4 : Traversals
+   34
+59
+   86
+      55
+         47
+LEFTTORIGHT INORDER
+47
+55
+86
+59
+34
+LEFTTORIGHT PREORDER
+59
+86
+55
+47
+34
+LEFTTORIGHT POSTORDER
+47
+55
+86
+34
+59
+RIGHTTOLEFT INORDER
+34
+59
+86
+55
+47
+RIGHTTOLEFT PREORDER
+59
+34
+86
+55
+47
+RIGHTTOLEFT POSTORDER
+34
+47
+55
+86
+59
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 4 : Traversals
+   34
+59
+   86
+      55
+         47
+LEFTTORIGHT INORDER
+47
+55
+86
+59
+34
+LEFTTORIGHT PREORDER
+59
+86
+55
+47
+34
+LEFTTORIGHT POSTORDER
+47
+55
+86
+34
+59
+RIGHTTOLEFT INORDER
+34
+59
+86
+55
+47
+RIGHTTOLEFT PREORDER
+59
+34
+86
+55
+47
+RIGHTTOLEFT POSTORDER
+34
+47
+55
+86
+59
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 4 : Traversals					Test 4 : Traversals					
+   34					   34					
+59					59					
+   86					   86					
+      55					      55					
+         47					         47					
+LEFTTORIGHT INORDER					LEFTTORIGHT INORDER					
+47					47					
+55					55					
+86					86					
+59					59					
+34					34					
+LEFTTORIGHT PREORDER					LEFTTORIGHT PREORDER					
+59					59					
+86					86					
+55					55					
+47					47					
+34					34					
+LEFTTORIGHT POSTORDER					LEFTTORIGHT POSTORDER					
+47					47					
+55					55					
+86					86					
+34					34					
+59					59					
+RIGHTTOLEFT INORDER					RIGHTTOLEFT INORDER					
+34					34					
+59					59					
+86					86					
+55					55					
+47					47					
+RIGHTTOLEFT PREORDER					RIGHTTOLEFT PREORDER					
+59					59					
+34					34					
+86					86					
+55					55					
+47					47					
+RIGHTTOLEFT POSTORDER					RIGHTTOLEFT POSTORDER					
+34					34					
+47					47					
+55					55					
+86					86					
+59					59					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest04 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest05
+----------------------------------------------------------------
+
+Running submitted code
+Test 5 : height
+      82
+   23
+         59
+            99
+      69
+59
+   86
+               95
+            84
+         34
+               19
+            7
+      55
+               70
+            72
+               60
+         47
+            34
+Height is 6
+Height of another big tree, not shown, is 30
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 5 : height
+      82
+   23
+         59
+            99
+      69
+59
+   86
+               95
+            84
+         34
+               19
+            7
+      55
+               70
+            72
+               60
+         47
+            34
+Height is 6
+Height of another big tree, not shown, is 30
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 5 : height
+      82
+   23
+         59
+            99
+      69
+59
+   86
+               95
+            84
+         34
+               19
+            7
+      55
+               70
+            72
+               60
+         47
+            34
+Height is 6
+Height of another big tree, not shown, is 30
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 5 : height
+      82
+   23
+         59
+            99
+      69
+59
+   86
+               95
+            84
+         34
+               19
+            7
+      55
+               70
+            72
+               60
+         47
+            34
+Height is 6
+Height of another big tree, not shown, is 30
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 5 : height					Test 5 : height					
+      82					      82					
+   23					   23					
+         59					         59					
+            99					            99					
+      69					      69					
+59					59					
+   86					   86					
+               95					               95					
+            84					            84					
+         34					         34					
+               19					               19					
+            7					            7					
+      55					      55					
+               70					               70					
+            72					            72					
+               60					               60					
+         47					         47					
+            34					            34					
+Height is 6					Height is 6					
+Height of another big tree, not shown					Height of another big tree, not shown					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest05 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest06
+----------------------------------------------------------------
+
+Running submitted code
+Test 6 : is_full
+      34
+   34
+         70
+      72
+         60
+59
+   86
+      55
+         47
+6 nonempty full subtrees
+      87
+   42
+            9
+         7
+               46
+            37
+               54
+      60
+                              96
+                           14
+                              6
+                        78
+                     86
+                  49
+               66
+                     57
+                           4
+                        82
+                  40
+                     60
+                              6
+                           66
+                        37
+            5
+                  70
+               84
+                  15
+                              67
+                           25
+                        33
+                     91
+         89
+               43
+            84
+                              3
+                                 96
+                           86
+                                 7
+                                    48
+                              20
+                        27
+                              6
+                           97
+                              16
+                     84
+                        91
+                  72
+                        76
+                     7
+               35
+                     46
+                        57
+                  28
+                                 56
+                                          8
+                                       25
+                                    61
+                              57
+                           28
+                              23
+                                    38
+                                 66
+                        98
+                           83
+                              40
+                                    80
+                                 54
+                     17
+7
+      14
+            74
+         72
+                     24
+                           3
+                        37
+                  80
+               49
+            26
+               7
+   19
+               79
+            99
+                  49
+                     37
+               82
+                  2
+         95
+               59
+            23
+               69
+      84
+34 nonempty full subtrees
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 6 : is_full
+      34
+   34
+         70
+      72
+         60
+59
+   86
+      55
+         47
+6 nonempty full subtrees
+      87
+   42
+            9
+         7
+               46
+            37
+               54
+      60
+                              96
+                           14
+                              6
+                        78
+                     86
+                  49
+               66
+                     57
+                           4
+                        82
+                  40
+                     60
+                              6
+                           66
+                        37
+            5
+                  70
+               84
+                  15
+                              67
+                           25
+                        33
+                     91
+         89
+               43
+            84
+                              3
+                                 96
+                           86
+                                 7
+                                    48
+                              20
+                        27
+                              6
+                           97
+                              16
+                     84
+                        91
+                  72
+                        76
+                     7
+               35
+                     46
+                        57
+                  28
+                                 56
+                                          8
+                                       25
+                                    61
+                              57
+                           28
+                              23
+                                    38
+                                 66
+                        98
+                           83
+                              40
+                                    80
+                                 54
+                     17
+7
+      14
+            74
+         72
+                     24
+                           3
+                        37
+                  80
+               49
+            26
+               7
+   19
+               79
+            99
+                  49
+                     37
+               82
+                  2
+         95
+               59
+            23
+               69
+      84
+34 nonempty full subtrees
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 6 : is_full
+      34
+   34
+         70
+      72
+         60
+59
+   86
+      55
+         47
+6 nonempty full subtrees
+      87
+   42
+            9
+         7
+               46
+            37
+               54
+      60
+                              96
+                           14
+                              6
+                        78
+                     86
+                  49
+               66
+                     57
+                           4
+                        82
+                  40
+                     60
+                              6
+                           66
+                        37
+            5
+                  70
+               84
+                  15
+                              67
+                           25
+                        33
+                     91
+         89
+               43
+            84
+                              3
+                                 96
+                           86
+                                 7
+                                    48
+                              20
+                        27
+                              6
+                           97
+                              16
+                     84
+                        91
+                  72
+                        76
+                     7
+               35
+                     46
+                        57
+                  28
+                                 56
+                                          8
+                                       25
+                                    61
+                              57
+                           28
+                              23
+                                    38
+                                 66
+                        98
+                           83
+                              40
+                                    80
+                                 54
+                     17
+7
+      14
+            74
+         72
+                     24
+                           3
+                        37
+                  80
+               49
+            26
+               7
+   19
+               79
+            99
+                  49
+                     37
+               82
+                  2
+         95
+               59
+            23
+               69
+      84
+34 nonempty full subtrees
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 6 : is_full
+      34
+   34
+         70
+      72
+         60
+59
+   86
+      55
+         47
+6 nonempty full subtrees
+      87
+   42
+            9
+         7
+               46
+            37
+               54
+      60
+                              96
+                           14
+                              6
+                        78
+                     86
+                  49
+               66
+                     57
+                           4
+                        82
+                  40
+                     60
+                              6
+                           66
+                        37
+            5
+                  70
+               84
+                  15
+                              67
+                           25
+                        33
+                     91
+         89
+               43
+            84
+                              3
+                                 96
+                           86
+                                 7
+                                    48
+                              20
+                        27
+                              6
+                           97
+                              16
+                     84
+                        91
+                  72
+                        76
+                     7
+               35
+                     46
+                        57
+                  28
+                                 56
+                                          8
+                                       25
+                                    61
+                              57
+                           28
+                              23
+                                    38
+                                 66
+                        98
+                           83
+                              40
+                                    80
+                                 54
+                     17
+7
+      14
+            74
+         72
+                     24
+                           3
+                        37
+                  80
+               49
+            26
+               7
+   19
+               79
+            99
+                  49
+                     37
+               82
+                  2
+         95
+               59
+            23
+               69
+      84
+34 nonempty full subtrees
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 6 : is_full					Test 6 : is_full					
+      34					      34					
+   34					   34					
+         70					         70					
+      72					      72					
+         60					         60					
+59					59					
+   86					   86					
+      55					      55					
+         47					         47					
+6 nonempty full subtrees					6 nonempty full subtrees					
+      87					      87					
+   42					   42					
+            9					            9					
+         7					         7					
+               46					               46					
+            37					            37					
+               54					               54					
+      60					      60					
+                              96					                              96					
+                           14					                           14					
+                              6					                              6					
+                        78					                        78					
+                     86					                     86					
+                  49					                  49					
+               66					               66					
+                     57					                     57					
+                           4					                           4					
+                        82					                        82					
+                  40					                  40					
+                     60					                     60					
+                              6					                              6					
+                           66					                           66					
+                        37					                        37					
+            5					            5					
+                  70					                  70					
+               84					               84					
+                  15					                  15					
+                              67					                              67					
+                           25					                           25					
+                        33					                        33					
+                     91					                     91					
+         89					         89					
+               43					               43					
+            84					            84					
+                              3					                              3					
+                                 96					                                 96					
+                           86					                           86					
+                                 7					                                 7					
+                                    4					                                    4					
+                              20					                              20					
+                        27					                        27					
+                              6					                              6					
+                           97					                           97					
+                              16					                              16					
+                     84					                     84					
+                        91					                        91					
+                  72					                  72					
+                        76					                        76					
+                     7					                     7					
+               35					               35					
+                     46					                     46					
+                        57					                        57					
+                  28					                  28					
+                                 56					                                 56					
+                                     					                                     					
+                                     					                                     					
+                                    6					                                    6					
+                              57					                              57					
+                           28					                           28					
+                              23					                              23					
+                                    3					                                    3					
+                                 66					                                 66					
+                        98					                        98					
+                           83					                           83					
+                              40					                              40					
+                                    8					                                    8					
+                                 54					                                 54					
+                     17					                     17					
+7					7					
+      14					      14					
+            74					            74					
+         72					         72					
+                     24					                     24					
+                           3					                           3					
+                        37					                        37					
+                  80					                  80					
+               49					               49					
+            26					            26					
+               7					               7					
+   19					   19					
+               79					               79					
+            99					            99					
+                  49					                  49					
+                     37					                     37					
+               82					               82					
+                  2					                  2					
+         95					         95					
+               59					               59					
+            23					            23					
+               69					               69					
+      84					      84					
+34 nonempty full subtrees					34 nonempty full subtrees					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest06 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest07
+----------------------------------------------------------------
+
+Running submitted code
+Test 7 : is_equal
+Testing equal trees:
+is_equal(t1,t2) = true
+Testing unequal trees:
+is_equal(t1,t2) = false
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 7 : is_equal
+Testing equal trees:
+is_equal(t1,t2) = true
+Testing unequal trees:
+is_equal(t1,t2) = false
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 7 : is_equal
+Testing equal trees:
+is_equal(t1,t2) = true
+Testing unequal trees:
+is_equal(t1,t2) = false
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 7 : is_equal
+Testing equal trees:
+is_equal(t1,t2) = true
+Testing unequal trees:
+is_equal(t1,t2) = false
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 7 : is_equal					Test 7 : is_equal					
+Testing equal trees:					Testing equal trees:					
+is_equal(t1,t2) = true					is_equal(t1,t2) = true					
+Testing unequal trees:					Testing unequal trees:					
+is_equal(t1,t2) = false					is_equal(t1,t2) = false					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest07 Passed
+
+----------------------------------------------------------------
+-  Test: _mytest08
+----------------------------------------------------------------
+
+Running submitted code
+Test 8 : is_balanced
+   7
+59
+   86
+         70
+            34
+      55
+               60
+            34
+               72
+         47
+not balanced
+19
+      95
+         23
+                  49
+               2
+            69
+                     82
+                  99
+               59
+   84
+not balanced
+   37
+37
+         7
+               24
+            49
+               80
+      72
+         26
+   79
+      14
+not balanced
+            98
+         35
+            28
+               17
+      84
+   89
+3
+      60
+   74
+      42
+not balanced
+               56
+            38
+               57
+         66
+      23
+   28
+83
+   40
+         80
+      54
+not balanced
+   84
+      91
+61
+      72
+            76
+         7
+   25
+         57
+      8
+         46
+not balanced
+      3
+         96
+   86
+         7
+            48
+      20
+27
+      6
+   97
+      16
+not balanced
+         66
+      67
+         70
+   91
+         25
+      33
+43
+         15
+      84
+   5
+not balanced
+   86
+40
+         49
+      57
+            4
+         82
+   60
+            6
+         66
+      37
+not balanced
+   96
+         87
+      7
+         37
+               46
+                  9
+            54
+78
+      6
+   14
+not balanced
+         52
+            71
+      76
+   36
+26
+      42
+         5
+   65
+         26
+      12
+not balanced
+39
+         73
+            2
+      9
+               6
+            34
+               25
+         88
+            20
+   58
+not balanced
+      48
+   9
+49
+   88
+            25
+         16
+      78
+            42
+         32
+            88
+not balanced
+94
+      35
+         77
+   28
+            9
+         69
+      86
+            71
+               79
+         60
+not balanced
+      77
+         29
+   79
+      12
+50
+         47
+            62
+      44
+   55
+      24
+not balanced
+   72
+            30
+               12
+         3
+            96
+      31
+               41
+            27
+         2
+34
+not balanced
+      24
+   55
+37
+            47
+         75
+      98
+   70
+            6
+         34
+      69
+not balanced
+      76
+   9
+         26
+      59
+84
+         5
+            22
+      18
+   64
+      15
+not balanced
+            98
+         0
+            15
+      86
+   86
+9
+      76
+   76
+      96
+         95
+not balanced
+         37
+      81
+   63
+               67
+            38
+         78
+      16
+            68
+         88
+1
+not balanced
+   4
+      61
+34
+      3
+   69
+         15
+            99
+      79
+         25
+            40
+not balanced
+   96
+         78
+            22
+      99
+7
+   7
+            87
+         40
+      97
+         31
+not balanced
+   0
+52
+         33
+      19
+         57
+               61
+            0
+               72
+   11
+      19
+not balanced
+   34
+      24
+         46
+13
+      77
+         46
+            0
+   1
+      45
+         37
+not balanced
+   6
+            94
+         18
+               30
+                  23
+            73
+      33
+         4
+38
+   98
+not balanced
+   26
+         68
+            53
+      59
+         51
+            28
+82
+         53
+      49
+   35
+not balanced
+      12
+            7
+         79
+   23
+      28
+46
+   93
+            47
+         90
+      94
+not balanced
+      28
+   11
+         42
+      86
+70
+      82
+            68
+         15
+   22
+      75
+not balanced
+17
+      74
+         73
+   19
+            97
+                  49
+               53
+         54
+      61
+         27
+not balanced
+      98
+         25
+   56
+         72
+            85
+      59
+            43
+         41
+            70
+71
+not balanced
+            17
+         71
+            13
+      52
+   34
+      13
+         63
+51
+      46
+   28
+not balanced
+            61
+         88
+      85
+   42
+85
+         76
+            78
+      75
+         42
+   75
+not balanced
+      25
+   77
+            35
+         76
+            72
+      96
+78
+   89
+         46
+      95
+not balanced
+         63
+      9
+   47
+         55
+            60
+      54
+34
+         17
+      61
+   43
+not balanced
+   97
+74
+      80
+         34
+               52
+            8
+   1
+      82
+            93
+         2
+not balanced
+      52
+               42
+            91
+               29
+                  79
+         99
+   17
+7
+      0
+   29
+not balanced
+            12
+         66
+            30
+      51
+   7
+63
+      92
+   3
+         98
+      98
+not balanced
+      53
+   83
+         0
+            91
+               39
+      74
+         20
+67
+      65
+   8
+not balanced
+         63
+            77
+      16
+         67
+   89
+      61
+37
+      40
+   35
+      49
+not balanced
+      25
+   89
+76
+      45
+         37
+   79
+            99
+         79
+            12
+      25
+not balanced
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+Running authorty code
+Test 8 : is_balanced
+   7
+59
+   86
+         70
+            34
+      55
+               60
+            34
+               72
+         47
+not balanced
+19
+      95
+         23
+                  49
+               2
+            69
+                     82
+                  99
+               59
+   84
+not balanced
+   37
+37
+         7
+               24
+            49
+               80
+      72
+         26
+   79
+      14
+not balanced
+            98
+         35
+            28
+               17
+      84
+   89
+3
+      60
+   74
+      42
+not balanced
+               56
+            38
+               57
+         66
+      23
+   28
+83
+   40
+         80
+      54
+not balanced
+   84
+      91
+61
+      72
+            76
+         7
+   25
+         57
+      8
+         46
+not balanced
+      3
+         96
+   86
+         7
+            48
+      20
+27
+      6
+   97
+      16
+not balanced
+         66
+      67
+         70
+   91
+         25
+      33
+43
+         15
+      84
+   5
+not balanced
+   86
+40
+         49
+      57
+            4
+         82
+   60
+            6
+         66
+      37
+not balanced
+   96
+         87
+      7
+         37
+               46
+                  9
+            54
+78
+      6
+   14
+not balanced
+         52
+            71
+      76
+   36
+26
+      42
+         5
+   65
+         26
+      12
+not balanced
+39
+         73
+            2
+      9
+               6
+            34
+               25
+         88
+            20
+   58
+not balanced
+      48
+   9
+49
+   88
+            25
+         16
+      78
+            42
+         32
+            88
+not balanced
+94
+      35
+         77
+   28
+            9
+         69
+      86
+            71
+               79
+         60
+not balanced
+      77
+         29
+   79
+      12
+50
+         47
+            62
+      44
+   55
+      24
+not balanced
+   72
+            30
+               12
+         3
+            96
+      31
+               41
+            27
+         2
+34
+not balanced
+      24
+   55
+37
+            47
+         75
+      98
+   70
+            6
+         34
+      69
+not balanced
+      76
+   9
+         26
+      59
+84
+         5
+            22
+      18
+   64
+      15
+not balanced
+            98
+         0
+            15
+      86
+   86
+9
+      76
+   76
+      96
+         95
+not balanced
+         37
+      81
+   63
+               67
+            38
+         78
+      16
+            68
+         88
+1
+not balanced
+   4
+      61
+34
+      3
+   69
+         15
+            99
+      79
+         25
+            40
+not balanced
+   96
+         78
+            22
+      99
+7
+   7
+            87
+         40
+      97
+         31
+not balanced
+   0
+52
+         33
+      19
+         57
+               61
+            0
+               72
+   11
+      19
+not balanced
+   34
+      24
+         46
+13
+      77
+         46
+            0
+   1
+      45
+         37
+not balanced
+   6
+            94
+         18
+               30
+                  23
+            73
+      33
+         4
+38
+   98
+not balanced
+   26
+         68
+            53
+      59
+         51
+            28
+82
+         53
+      49
+   35
+not balanced
+      12
+            7
+         79
+   23
+      28
+46
+   93
+            47
+         90
+      94
+not balanced
+      28
+   11
+         42
+      86
+70
+      82
+            68
+         15
+   22
+      75
+not balanced
+17
+      74
+         73
+   19
+            97
+                  49
+               53
+         54
+      61
+         27
+not balanced
+      98
+         25
+   56
+         72
+            85
+      59
+            43
+         41
+            70
+71
+not balanced
+            17
+         71
+            13
+      52
+   34
+      13
+         63
+51
+      46
+   28
+not balanced
+            61
+         88
+      85
+   42
+85
+         76
+            78
+      75
+         42
+   75
+not balanced
+      25
+   77
+            35
+         76
+            72
+      96
+78
+   89
+         46
+      95
+not balanced
+         63
+      9
+   47
+         55
+            60
+      54
+34
+         17
+      61
+   43
+not balanced
+   97
+74
+      80
+         34
+               52
+            8
+   1
+      82
+            93
+         2
+not balanced
+      52
+               42
+            91
+               29
+                  79
+         99
+   17
+7
+      0
+   29
+not balanced
+            12
+         66
+            30
+      51
+   7
+63
+      92
+   3
+         98
+      98
+not balanced
+      53
+   83
+         0
+            91
+               39
+      74
+         20
+67
+      65
+   8
+not balanced
+         63
+            77
+      16
+         67
+   89
+      61
+37
+      40
+   35
+      49
+not balanced
+      25
+   89
+76
+      45
+         37
+   79
+            99
+         79
+            12
+      25
+not balanced
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+============================= Your output ==============================
+========================================================================
+Test 8 : is_balanced
+   7
+59
+   86
+         70
+            34
+      55
+               60
+            34
+               72
+         47
+not balanced
+19
+      95
+         23
+                  49
+               2
+            69
+                     82
+                  99
+               59
+   84
+not balanced
+   37
+37
+         7
+               24
+            49
+               80
+      72
+         26
+   79
+      14
+not balanced
+            98
+         35
+            28
+               17
+      84
+   89
+3
+      60
+   74
+      42
+not balanced
+               56
+            38
+               57
+         66
+      23
+   28
+83
+   40
+         80
+      54
+not balanced
+   84
+      91
+61
+      72
+            76
+         7
+   25
+         57
+      8
+         46
+not balanced
+      3
+         96
+   86
+         7
+            48
+      20
+27
+      6
+   97
+      16
+not balanced
+         66
+      67
+         70
+   91
+         25
+      33
+43
+         15
+      84
+   5
+not balanced
+   86
+40
+         49
+      57
+            4
+         82
+   60
+            6
+         66
+      37
+not balanced
+   96
+         87
+      7
+         37
+               46
+                  9
+            54
+78
+      6
+   14
+not balanced
+         52
+            71
+      76
+   36
+26
+      42
+         5
+   65
+         26
+      12
+not balanced
+39
+         73
+            2
+      9
+               6
+            34
+               25
+         88
+            20
+   58
+not balanced
+      48
+   9
+49
+   88
+            25
+         16
+      78
+            42
+         32
+            88
+not balanced
+94
+      35
+         77
+   28
+            9
+         69
+      86
+            71
+               79
+         60
+not balanced
+      77
+         29
+   79
+      12
+50
+         47
+            62
+      44
+   55
+      24
+not balanced
+   72
+            30
+               12
+         3
+            96
+      31
+               41
+            27
+         2
+34
+not balanced
+      24
+   55
+37
+            47
+         75
+      98
+   70
+            6
+         34
+      69
+not balanced
+      76
+   9
+         26
+      59
+84
+         5
+            22
+      18
+   64
+      15
+not balanced
+            98
+         0
+            15
+      86
+   86
+9
+      76
+   76
+      96
+         95
+not balanced
+         37
+      81
+   63
+               67
+            38
+         78
+      16
+            68
+         88
+1
+not balanced
+   4
+      61
+34
+      3
+   69
+         15
+            99
+      79
+         25
+            40
+not balanced
+   96
+         78
+            22
+      99
+7
+   7
+            87
+         40
+      97
+         31
+not balanced
+   0
+52
+         33
+      19
+         57
+               61
+            0
+               72
+   11
+      19
+not balanced
+   34
+      24
+         46
+13
+      77
+         46
+            0
+   1
+      45
+         37
+not balanced
+   6
+            94
+         18
+               30
+                  23
+            73
+      33
+         4
+38
+   98
+not balanced
+   26
+         68
+            53
+      59
+         51
+            28
+82
+         53
+      49
+   35
+not balanced
+      12
+            7
+         79
+   23
+      28
+46
+   93
+            47
+         90
+      94
+not balanced
+      28
+   11
+         42
+      86
+70
+      82
+            68
+         15
+   22
+      75
+not balanced
+17
+      74
+         73
+   19
+            97
+                  49
+               53
+         54
+      61
+         27
+not balanced
+      98
+         25
+   56
+         72
+            85
+      59
+            43
+         41
+            70
+71
+not balanced
+            17
+         71
+            13
+      52
+   34
+      13
+         63
+51
+      46
+   28
+not balanced
+            61
+         88
+      85
+   42
+85
+         76
+            78
+      75
+         42
+   75
+not balanced
+      25
+   77
+            35
+         76
+            72
+      96
+78
+   89
+         46
+      95
+not balanced
+         63
+      9
+   47
+         55
+            60
+      54
+34
+         17
+      61
+   43
+not balanced
+   97
+74
+      80
+         34
+               52
+            8
+   1
+      82
+            93
+         2
+not balanced
+      52
+               42
+            91
+               29
+                  79
+         99
+   17
+7
+      0
+   29
+not balanced
+            12
+         66
+            30
+      51
+   7
+63
+      92
+   3
+         98
+      98
+not balanced
+      53
+   83
+         0
+            91
+               39
+      74
+         20
+67
+      65
+   8
+not balanced
+         63
+            77
+      16
+         67
+   89
+      61
+37
+      40
+   35
+      49
+not balanced
+      25
+   89
+76
+      45
+         37
+   79
+            99
+         79
+            12
+      25
+not balanced
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+========================== Authority output ============================
+========================================================================
+Test 8 : is_balanced
+   7
+59
+   86
+         70
+            34
+      55
+               60
+            34
+               72
+         47
+not balanced
+19
+      95
+         23
+                  49
+               2
+            69
+                     82
+                  99
+               59
+   84
+not balanced
+   37
+37
+         7
+               24
+            49
+               80
+      72
+         26
+   79
+      14
+not balanced
+            98
+         35
+            28
+               17
+      84
+   89
+3
+      60
+   74
+      42
+not balanced
+               56
+            38
+               57
+         66
+      23
+   28
+83
+   40
+         80
+      54
+not balanced
+   84
+      91
+61
+      72
+            76
+         7
+   25
+         57
+      8
+         46
+not balanced
+      3
+         96
+   86
+         7
+            48
+      20
+27
+      6
+   97
+      16
+not balanced
+         66
+      67
+         70
+   91
+         25
+      33
+43
+         15
+      84
+   5
+not balanced
+   86
+40
+         49
+      57
+            4
+         82
+   60
+            6
+         66
+      37
+not balanced
+   96
+         87
+      7
+         37
+               46
+                  9
+            54
+78
+      6
+   14
+not balanced
+         52
+            71
+      76
+   36
+26
+      42
+         5
+   65
+         26
+      12
+not balanced
+39
+         73
+            2
+      9
+               6
+            34
+               25
+         88
+            20
+   58
+not balanced
+      48
+   9
+49
+   88
+            25
+         16
+      78
+            42
+         32
+            88
+not balanced
+94
+      35
+         77
+   28
+            9
+         69
+      86
+            71
+               79
+         60
+not balanced
+      77
+         29
+   79
+      12
+50
+         47
+            62
+      44
+   55
+      24
+not balanced
+   72
+            30
+               12
+         3
+            96
+      31
+               41
+            27
+         2
+34
+not balanced
+      24
+   55
+37
+            47
+         75
+      98
+   70
+            6
+         34
+      69
+not balanced
+      76
+   9
+         26
+      59
+84
+         5
+            22
+      18
+   64
+      15
+not balanced
+            98
+         0
+            15
+      86
+   86
+9
+      76
+   76
+      96
+         95
+not balanced
+         37
+      81
+   63
+               67
+            38
+         78
+      16
+            68
+         88
+1
+not balanced
+   4
+      61
+34
+      3
+   69
+         15
+            99
+      79
+         25
+            40
+not balanced
+   96
+         78
+            22
+      99
+7
+   7
+            87
+         40
+      97
+         31
+not balanced
+   0
+52
+         33
+      19
+         57
+               61
+            0
+               72
+   11
+      19
+not balanced
+   34
+      24
+         46
+13
+      77
+         46
+            0
+   1
+      45
+         37
+not balanced
+   6
+            94
+         18
+               30
+                  23
+            73
+      33
+         4
+38
+   98
+not balanced
+   26
+         68
+            53
+      59
+         51
+            28
+82
+         53
+      49
+   35
+not balanced
+      12
+            7
+         79
+   23
+      28
+46
+   93
+            47
+         90
+      94
+not balanced
+      28
+   11
+         42
+      86
+70
+      82
+            68
+         15
+   22
+      75
+not balanced
+17
+      74
+         73
+   19
+            97
+                  49
+               53
+         54
+      61
+         27
+not balanced
+      98
+         25
+   56
+         72
+            85
+      59
+            43
+         41
+            70
+71
+not balanced
+            17
+         71
+            13
+      52
+   34
+      13
+         63
+51
+      46
+   28
+not balanced
+            61
+         88
+      85
+   42
+85
+         76
+            78
+      75
+         42
+   75
+not balanced
+      25
+   77
+            35
+         76
+            72
+      96
+78
+   89
+         46
+      95
+not balanced
+         63
+      9
+   47
+         55
+            60
+      54
+34
+         17
+      61
+   43
+not balanced
+   97
+74
+      80
+         34
+               52
+            8
+   1
+      82
+            93
+         2
+not balanced
+      52
+               42
+            91
+               29
+                  79
+         99
+   17
+7
+      0
+   29
+not balanced
+            12
+         66
+            30
+      51
+   7
+63
+      92
+   3
+         98
+      98
+not balanced
+      53
+   83
+         0
+            91
+               39
+      74
+         20
+67
+      65
+   8
+not balanced
+         63
+            77
+      16
+         67
+   89
+      61
+37
+      40
+   35
+      49
+not balanced
+      25
+   89
+76
+      45
+         37
+   79
+            99
+         79
+            12
+      25
+not balanced
+Script started, file is typescript
+Script started, file is typescript
+Script done, file is typescript
+========================================================================
+Side-by-side diff.  Yours is on the left.
+Test 8 : is_balanced					Test 8 : is_balanced					
+   7					   7					
+59					59					
+   86					   86					
+         70					         70					
+            34					            34					
+      55					      55					
+               60					               60					
+            34					            34					
+               72					               72					
+         47					         47					
+not balanced					not balanced					
+19					19					
+      95					      95					
+         23					         23					
+                  49					                  49					
+               2					               2					
+            69					            69					
+                     82					                     82					
+                  99					                  99					
+               59					               59					
+   84					   84					
+not balanced					not balanced					
+   37					   37					
+37					37					
+         7					         7					
+               24					               24					
+            49					            49					
+               80					               80					
+      72					      72					
+         26					         26					
+   79					   79					
+      14					      14					
+not balanced					not balanced					
+            98					            98					
+         35					         35					
+            28					            28					
+               17					               17					
+      84					      84					
+   89					   89					
+3					3					
+      60					      60					
+   74					   74					
+      42					      42					
+not balanced					not balanced					
+               56					               56					
+            38					            38					
+               57					               57					
+         66					         66					
+      23					      23					
+   28					   28					
+83					83					
+   40					   40					
+         80					         80					
+      54					      54					
+not balanced					not balanced					
+   84					   84					
+      91					      91					
+61					61					
+      72					      72					
+            76					            76					
+         7					         7					
+   25					   25					
+         57					         57					
+      8					      8					
+         46					         46					
+not balanced					not balanced					
+      3					      3					
+         96					         96					
+   86					   86					
+         7					         7					
+            48					            48					
+      20					      20					
+27					27					
+      6					      6					
+   97					   97					
+      16					      16					
+not balanced					not balanced					
+         66					         66					
+      67					      67					
+         70					         70					
+   91					   91					
+         25					         25					
+      33					      33					
+43					43					
+         15					         15					
+      84					      84					
+   5					   5					
+not balanced					not balanced					
+   86					   86					
+40					40					
+         49					         49					
+      57					      57					
+            4					            4					
+         82					         82					
+   60					   60					
+            6					            6					
+         66					         66					
+      37					      37					
+not balanced					not balanced					
+   96					   96					
+         87					         87					
+      7					      7					
+         37					         37					
+               46					               46					
+                  9					                  9					
+            54					            54					
+78					78					
+      6					      6					
+   14					   14					
+not balanced					not balanced					
+         52					         52					
+            71					            71					
+      76					      76					
+   36					   36					
+26					26					
+      42					      42					
+         5					         5					
+   65					   65					
+         26					         26					
+      12					      12					
+not balanced					not balanced					
+39					39					
+         73					         73					
+            2					            2					
+      9					      9					
+               6					               6					
+            34					            34					
+               25					               25					
+         88					         88					
+            20					            20					
+   58					   58					
+not balanced					not balanced					
+      48					      48					
+   9					   9					
+49					49					
+   88					   88					
+            25					            25					
+         16					         16					
+      78					      78					
+            42					            42					
+         32					         32					
+            88					            88					
+not balanced					not balanced					
+94					94					
+      35					      35					
+         77					         77					
+   28					   28					
+            9					            9					
+         69					         69					
+      86					      86					
+            71					            71					
+               79					               79					
+         60					         60					
+not balanced					not balanced					
+      77					      77					
+         29					         29					
+   79					   79					
+      12					      12					
+50					50					
+         47					         47					
+            62					            62					
+      44					      44					
+   55					   55					
+      24					      24					
+not balanced					not balanced					
+   72					   72					
+            30					            30					
+               12					               12					
+         3					         3					
+            96					            96					
+      31					      31					
+               41					               41					
+            27					            27					
+         2					         2					
+34					34					
+not balanced					not balanced					
+      24					      24					
+   55					   55					
+37					37					
+            47					            47					
+         75					         75					
+      98					      98					
+   70					   70					
+            6					            6					
+         34					         34					
+      69					      69					
+not balanced					not balanced					
+      76					      76					
+   9					   9					
+         26					         26					
+      59					      59					
+84					84					
+         5					         5					
+            22					            22					
+      18					      18					
+   64					   64					
+      15					      15					
+not balanced					not balanced					
+            98					            98					
+         0					         0					
+            15					            15					
+      86					      86					
+   86					   86					
+9					9					
+      76					      76					
+   76					   76					
+      96					      96					
+         95					         95					
+not balanced					not balanced					
+         37					         37					
+      81					      81					
+   63					   63					
+               67					               67					
+            38					            38					
+         78					         78					
+      16					      16					
+            68					            68					
+         88					         88					
+1					1					
+not balanced					not balanced					
+   4					   4					
+      61					      61					
+34					34					
+      3					      3					
+   69					   69					
+         15					         15					
+            99					            99					
+      79					      79					
+         25					         25					
+            40					            40					
+not balanced					not balanced					
+   96					   96					
+         78					         78					
+            22					            22					
+      99					      99					
+7					7					
+   7					   7					
+            87					            87					
+         40					         40					
+      97					      97					
+         31					         31					
+not balanced					not balanced					
+   0					   0					
+52					52					
+         33					         33					
+      19					      19					
+         57					         57					
+               61					               61					
+            0					            0					
+               72					               72					
+   11					   11					
+      19					      19					
+not balanced					not balanced					
+   34					   34					
+      24					      24					
+         46					         46					
+13					13					
+      77					      77					
+         46					         46					
+            0					            0					
+   1					   1					
+      45					      45					
+         37					         37					
+not balanced					not balanced					
+   6					   6					
+            94					            94					
+         18					         18					
+               30					               30					
+                  23					                  23					
+            73					            73					
+      33					      33					
+         4					         4					
+38					38					
+   98					   98					
+not balanced					not balanced					
+   26					   26					
+         68					         68					
+            53					            53					
+      59					      59					
+         51					         51					
+            28					            28					
+82					82					
+         53					         53					
+      49					      49					
+   35					   35					
+not balanced					not balanced					
+      12					      12					
+            7					            7					
+         79					         79					
+   23					   23					
+      28					      28					
+46					46					
+   93					   93					
+            47					            47					
+         90					         90					
+      94					      94					
+not balanced					not balanced					
+      28					      28					
+   11					   11					
+         42					         42					
+      86					      86					
+70					70					
+      82					      82					
+            68					            68					
+         15					         15					
+   22					   22					
+      75					      75					
+not balanced					not balanced					
+17					17					
+      74					      74					
+         73					         73					
+   19					   19					
+            97					            97					
+                  49					                  49					
+               53					               53					
+         54					         54					
+      61					      61					
+         27					         27					
+not balanced					not balanced					
+      98					      98					
+         25					         25					
+   56					   56					
+         72					         72					
+            85					            85					
+      59					      59					
+            43					            43					
+         41					         41					
+            70					            70					
+71					71					
+not balanced					not balanced					
+            17					            17					
+         71					         71					
+            13					            13					
+      52					      52					
+   34					   34					
+      13					      13					
+         63					         63					
+51					51					
+      46					      46					
+   28					   28					
+not balanced					not balanced					
+            61					            61					
+         88					         88					
+      85					      85					
+   42					   42					
+85					85					
+         76					         76					
+            78					            78					
+      75					      75					
+         42					         42					
+   75					   75					
+not balanced					not balanced					
+      25					      25					
+   77					   77					
+            35					            35					
+         76					         76					
+            72					            72					
+      96					      96					
+78					78					
+   89					   89					
+         46					         46					
+      95					      95					
+not balanced					not balanced					
+         63					         63					
+      9					      9					
+   47					   47					
+         55					         55					
+            60					            60					
+      54					      54					
+34					34					
+         17					         17					
+      61					      61					
+   43					   43					
+not balanced					not balanced					
+   97					   97					
+74					74					
+      80					      80					
+         34					         34					
+               52					               52					
+            8					            8					
+   1					   1					
+      82					      82					
+            93					            93					
+         2					         2					
+not balanced					not balanced					
+      52					      52					
+               42					               42					
+            91					            91					
+               29					               29					
+                  79					                  79					
+         99					         99					
+   17					   17					
+7					7					
+      0					      0					
+   29					   29					
+not balanced					not balanced					
+            12					            12					
+         66					         66					
+            30					            30					
+      51					      51					
+   7					   7					
+63					63					
+      92					      92					
+   3					   3					
+         98					         98					
+      98					      98					
+not balanced					not balanced					
+      53					      53					
+   83					   83					
+         0					         0					
+            91					            91					
+               39					               39					
+      74					      74					
+         20					         20					
+67					67					
+      65					      65					
+   8					   8					
+not balanced					not balanced					
+         63					         63					
+            77					            77					
+      16					      16					
+         67					         67					
+   89					   89					
+      61					      61					
+37					37					
+      40					      40					
+   35					   35					
+      49					      49					
+not balanced					not balanced					
+      25					      25					
+   89					   89					
+76					76					
+      45					      45					
+         37					         37					
+   79					   79					
+            99					            99					
+         79					         79					
+            12					            12					
+      25					      25					
+not balanced					not balanced					
+Script started, file is typescript	Script started, file is typescript
+Script started, file is typescript	Script started, file is typescript
+Script done, file is typescript		Script done, file is typescript
+
+Test _mytest08 Passed
+Passed 8 out of 8 test cases for authority
+Evaluation complete.
