@@ -1,10 +1,10 @@
-tester: tester.o nine.o
-	g++ -o tester tester.o nine.o
+tester: tester.o treetrav.o
+	g++ -o tester tester.o treetrav.o
 
 treetrav.o: treetrav.h treetrav.cc
 	g++ -c treetrav.cc
 
-tester.o: tester.cc nine.h
+tester.o: tester.cc treetrav.h
 	g++ -c tester.cc
 
 
