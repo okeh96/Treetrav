@@ -1,10 +1,10 @@
-// nine.h
+// treetrav.h
 // Alistair Campbell
 
-// Headers for "nine functions on trees"
+// Headers for "treetrav functions on trees"
 
-#ifndef NINE
-#define NINE
+#ifndef TREETRAV
+#define TREETRAV
 
 #include <cstdlib>
 
